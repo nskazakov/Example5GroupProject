@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9B5E09C174AA5C078B4D60D2 /* Pods_5retailProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA33D9D477847CC36DCA115 /* Pods_5retailProject.framework */; };
+		B02339B4270CA7AE00326A07 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02339B3270CA7AE00326A07 /* BaseViewController.swift */; };
+		B02339B6270CA7BF00326A07 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02339B5270CA7BF00326A07 /* BaseViewModel.swift */; };
+		B02339B9270CAAF600326A07 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02339B8270CAAF600326A07 /* BaseCoordinator.swift */; };
 		B0BC16A326FCEAF8001688D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BC16A226FCEAF8001688D0 /* AppDelegate.swift */; };
 		B0BC16A526FCEAF8001688D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BC16A426FCEAF8001688D0 /* SceneDelegate.swift */; };
 		B0BC16A726FCEAF8001688D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BC16A626FCEAF8001688D0 /* ViewController.swift */; };
@@ -19,6 +22,9 @@
 /* Begin PBXFileReference section */
 		2CA33D9D477847CC36DCA115 /* Pods_5retailProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_5retailProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A35D23413AE73FADB4E4FB55 /* Pods-5retailProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5retailProject.debug.xcconfig"; path = "Target Support Files/Pods-5retailProject/Pods-5retailProject.debug.xcconfig"; sourceTree = "<group>"; };
+		B02339B3270CA7AE00326A07 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		B02339B5270CA7BF00326A07 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		B02339B8270CAAF600326A07 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 		B0BC169F26FCEAF8001688D0 /* 5retailProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 5retailProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BC16A226FCEAF8001688D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0BC16A426FCEAF8001688D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,24 @@
 				E00F3437A8991F75C09E29A2 /* Pods-5retailProject.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		B02339B2270CA77500326A07 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B02339B7270CAAA200326A07 /* Base Module */,
+				B02339B8270CAAF600326A07 /* BaseCoordinator.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B02339B7270CAAA200326A07 /* Base Module */ = {
+			isa = PBXGroup;
+			children = (
+				B02339B3270CA7AE00326A07 /* BaseViewController.swift */,
+				B02339B5270CA7BF00326A07 /* BaseViewModel.swift */,
+			);
+			path = "Base Module";
 			sourceTree = "<group>";
 		};
 		B0BC169626FCEAF8001688D0 = {
@@ -91,6 +115,7 @@
 		B0BC16B726FCEBD6001688D0 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				B02339B2270CA77500326A07 /* Base */,
 				B0BC16B826FCEBE1001688D0 /* App */,
 				B0BC16B926FCEBED001688D0 /* Scenes */,
 			);
@@ -253,9 +278,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0BC16A726FCEAF8001688D0 /* ViewController.swift in Sources */,
+				B02339B4270CA7AE00326A07 /* BaseViewController.swift in Sources */,
 				B0BC16BD26FCF213001688D0 /* TabBarController.swift in Sources */,
+				B02339B6270CA7BF00326A07 /* BaseViewModel.swift in Sources */,
 				B0BC16A326FCEAF8001688D0 /* AppDelegate.swift in Sources */,
 				B0BC16A526FCEAF8001688D0 /* SceneDelegate.swift in Sources */,
+				B02339B9270CAAF600326A07 /* BaseCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
