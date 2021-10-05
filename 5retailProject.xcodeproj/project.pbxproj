@@ -12,10 +12,13 @@
 		B02339A5270CA54C00326A07 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02339A4270CA54C00326A07 /* ProfileViewModel.swift */; };
 		B02339A7270CA5F800326A07 /* BasketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02339A6270CA5F800326A07 /* BasketView.swift */; };
 		B02339A9270CA64B00326A07 /* BasketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02339A8270CA64B00326A07 /* BasketViewModel.swift */; };
+		B02339AB270CA69E00326A07 /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02339AA270CA69E00326A07 /* CatalogView.swift */; };
+		B02339AD270CA6A700326A07 /* CatalogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02339AC270CA6A700326A07 /* CatalogViewModel.swift */; };
 		B02339B4270CA7AE00326A07 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02339B3270CA7AE00326A07 /* BaseViewController.swift */; };
 		B02339B6270CA7BF00326A07 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02339B5270CA7BF00326A07 /* BaseViewModel.swift */; };
 		B02339B9270CAAF600326A07 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02339B8270CAAF600326A07 /* BaseCoordinator.swift */; };
 		B02339BB270CAB3700326A07 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02339BA270CAB3700326A07 /* AppCoordinator.swift */; };
+		B02339BF270CAC7200326A07 /* CatalogFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02339BE270CAC7200326A07 /* CatalogFlowCoordinator.swift */; };
 		B02339C1270CAC7E00326A07 /* BasketFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02339C0270CAC7E00326A07 /* BasketFlowCoordinator.swift */; };
 		B02339C3270CAC8A00326A07 /* ProfileFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02339C2270CAC8A00326A07 /* ProfileFlowCoordinator.swift */; };
 		B0BC16A326FCEAF8001688D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BC16A226FCEAF8001688D0 /* AppDelegate.swift */; };
@@ -33,10 +36,13 @@
 		B02339A4270CA54C00326A07 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		B02339A6270CA5F800326A07 /* BasketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketView.swift; sourceTree = "<group>"; };
 		B02339A8270CA64B00326A07 /* BasketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewModel.swift; sourceTree = "<group>"; };
+		B02339AA270CA69E00326A07 /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
+		B02339AC270CA6A700326A07 /* CatalogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewModel.swift; sourceTree = "<group>"; };
 		B02339B3270CA7AE00326A07 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		B02339B5270CA7BF00326A07 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		B02339B8270CAAF600326A07 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 		B02339BA270CAB3700326A07 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		B02339BE270CAC7200326A07 /* CatalogFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogFlowCoordinator.swift; sourceTree = "<group>"; };
 		B02339C0270CAC7E00326A07 /* BasketFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketFlowCoordinator.swift; sourceTree = "<group>"; };
 		B02339C2270CAC8A00326A07 /* ProfileFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFlowCoordinator.swift; sourceTree = "<group>"; };
 		B0BC169F26FCEAF8001688D0 /* 5retailProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 5retailProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +95,16 @@
 				B02339C0270CAC7E00326A07 /* BasketFlowCoordinator.swift */,
 			);
 			path = Basket;
+			sourceTree = "<group>";
+		};
+		B023399F270CA50700326A07 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				B02339AA270CA69E00326A07 /* CatalogView.swift */,
+				B02339AC270CA6A700326A07 /* CatalogViewModel.swift */,
+				B02339BE270CAC7200326A07 /* CatalogFlowCoordinator.swift */,
+			);
+			path = Catalog;
 			sourceTree = "<group>";
 		};
 		B02339B2270CA77500326A07 /* Base */ = {
@@ -169,6 +185,7 @@
 		B0BC16B926FCEBED001688D0 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				B023399F270CA50700326A07 /* Catalog */,
 				B023399E270CA4FC00326A07 /* Basket */,
 				B023399C270CA4EB00326A07 /* Profile */,
 				B0BC16BB26FCF1FD001688D0 /* TabBar */,
@@ -317,10 +334,12 @@
 				B0BC16A726FCEAF8001688D0 /* ViewController.swift in Sources */,
 				B02339A9270CA64B00326A07 /* BasketViewModel.swift in Sources */,
 				B02339A7270CA5F800326A07 /* BasketView.swift in Sources */,
+				B02339AB270CA69E00326A07 /* CatalogView.swift in Sources */,
 				B02339C1270CAC7E00326A07 /* BasketFlowCoordinator.swift in Sources */,
 				B02339A3270CA54200326A07 /* ProfileView.swift in Sources */,
 				B02339B4270CA7AE00326A07 /* BaseViewController.swift in Sources */,
 				B0BC16BD26FCF213001688D0 /* TabBarController.swift in Sources */,
+				B02339BF270CAC7200326A07 /* CatalogFlowCoordinator.swift in Sources */,
 				B02339B6270CA7BF00326A07 /* BaseViewModel.swift in Sources */,
 				B02339C3270CAC8A00326A07 /* ProfileFlowCoordinator.swift in Sources */,
 				B0BC16A326FCEAF8001688D0 /* AppDelegate.swift in Sources */,
@@ -328,6 +347,7 @@
 				B02339A5270CA54C00326A07 /* ProfileViewModel.swift in Sources */,
 				B02339B9270CAAF600326A07 /* BaseCoordinator.swift in Sources */,
 				B02339BB270CAB3700326A07 /* AppCoordinator.swift in Sources */,
+				B02339AD270CA6A700326A07 /* CatalogViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
