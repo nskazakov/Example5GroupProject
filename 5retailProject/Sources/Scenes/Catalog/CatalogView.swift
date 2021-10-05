@@ -1,13 +1,15 @@
 //
-//  ViewController.swift
+//  CatalogView.swift
 //  5retailProject
 //
-//  Created by Nikita Kazakov on 23.09.2021.
+//  Created by Nikita Kazakov on 05.10.2021.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+final class CatalogView: BaseViewController {
+
+    var viewModel: CatalogViewModelType!
 
     override func viewDidLoad() {
         super.viewDidLoad()
