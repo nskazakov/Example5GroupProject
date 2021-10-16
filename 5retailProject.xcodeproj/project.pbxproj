@@ -25,6 +25,7 @@
 		B02339C1270CAC7E00326A07 /* BasketFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02339C0270CAC7E00326A07 /* BasketFlowCoordinator.swift */; };
 		B02339C3270CAC8A00326A07 /* ProfileFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02339C2270CAC8A00326A07 /* ProfileFlowCoordinator.swift */; };
 		B02339C5270CAE2600326A07 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02339C4270CAE2600326A07 /* Scene.swift */; };
+		B02B5878271B0CA80036807F /* HeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02B5877271B0CA80036807F /* HeaderViewCell.swift */; };
 		B0BC16A326FCEAF8001688D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BC16A226FCEAF8001688D0 /* AppDelegate.swift */; };
 		B0BC16A526FCEAF8001688D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BC16A426FCEAF8001688D0 /* SceneDelegate.swift */; };
 		B0BC16AC26FCEAFA001688D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0BC16AB26FCEAFA001688D0 /* Assets.xcassets */; };
@@ -86,6 +87,7 @@
 		B023399C270CA4EB00326A07 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				B02B5870271B0A3E0036807F /* Views */,
 				B02339A2270CA54200326A07 /* ProfileView.swift */,
 				B02339A4270CA54C00326A07 /* ProfileViewModel.swift */,
 				B02339C2270CAC8A00326A07 /* ProfileFlowCoordinator.swift */,
@@ -139,6 +141,22 @@
 				B02339B5270CA7BF00326A07 /* BaseViewModel.swift */,
 			);
 			path = "Base Module";
+			sourceTree = "<group>";
+		};
+		B02B5870271B0A3E0036807F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B02B5876271B0C830036807F /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B02B5876271B0C830036807F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B02B5877271B0CA80036807F /* HeaderViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		B0BC169626FCEAF8001688D0 = {
@@ -365,6 +383,7 @@
 				B0BC16A526FCEAF8001688D0 /* SceneDelegate.swift in Sources */,
 				B02339A5270CA54C00326A07 /* ProfileViewModel.swift in Sources */,
 				B02339B9270CAAF600326A07 /* BaseCoordinator.swift in Sources */,
+				B02B5878271B0CA80036807F /* HeaderViewCell.swift in Sources */,
 				B02339BB270CAB3700326A07 /* AppCoordinator.swift in Sources */,
 				B02339AD270CA6A700326A07 /* CatalogViewModel.swift in Sources */,
 				B02339B1270CA70400326A07 /* MainViewModel.swift in Sources */,
