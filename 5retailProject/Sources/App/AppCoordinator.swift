@@ -27,7 +27,9 @@ final class AppCoordinator: BaseCoordinator {
     // MARK: - Private methods
 
     private func startTabBarController() {
-        window.rootViewController = MainTabBarController()
+        let tabBarController = MainTabBarController()
+        window.rootViewController = tabBarController
+        tabBarController.selectedIndex = 3
         window.makeKeyAndVisible()
     }
 }
