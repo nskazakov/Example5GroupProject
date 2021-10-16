@@ -31,7 +31,7 @@ final class MainTabBarController: UITabBarController {
         let viewControllers = zip(tabBarItems, initialViewControllers)
             .compactMap { tabItem, viewController -> UIViewController in
                 viewController.tabBarItem = tabItem
-                return viewController
+                return UINavigationController(rootViewController: viewController)
             }
 
         setViewControllers(viewControllers, animated: true)
