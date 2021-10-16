@@ -25,6 +25,7 @@
 		B02339C1270CAC7E00326A07 /* BasketFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02339C0270CAC7E00326A07 /* BasketFlowCoordinator.swift */; };
 		B02339C3270CAC8A00326A07 /* ProfileFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02339C2270CAC8A00326A07 /* ProfileFlowCoordinator.swift */; };
 		B02339C5270CAE2600326A07 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02339C4270CAE2600326A07 /* Scene.swift */; };
+		B02B5872271B0A5D0036807F /* ProfileSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02B5871271B0A5D0036807F /* ProfileSectionModel.swift */; };
 		B02B5875271B0AEE0036807F /* HeaderViewObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02B5874271B0AEE0036807F /* HeaderViewObject.swift */; };
 		B02B5878271B0CA80036807F /* HeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02B5877271B0CA80036807F /* HeaderViewCell.swift */; };
 		B0BC16A326FCEAF8001688D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BC16A226FCEAF8001688D0 /* AppDelegate.swift */; };
@@ -54,6 +55,7 @@
 		B02339C0270CAC7E00326A07 /* BasketFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketFlowCoordinator.swift; sourceTree = "<group>"; };
 		B02339C2270CAC8A00326A07 /* ProfileFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFlowCoordinator.swift; sourceTree = "<group>"; };
 		B02339C4270CAE2600326A07 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		B02B5871271B0A5D0036807F /* ProfileSectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSectionModel.swift; sourceTree = "<group>"; };
 		B02B5874271B0AEE0036807F /* HeaderViewObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewObject.swift; sourceTree = "<group>"; };
 		B02B5877271B0CA80036807F /* HeaderViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewCell.swift; sourceTree = "<group>"; };
 		B0BC169F26FCEAF8001688D0 /* 5retailProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 5retailProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				B02B5874271B0AEE0036807F /* HeaderViewObject.swift */,
+				B02B5871271B0A5D0036807F /* ProfileSectionModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				B02B5875271B0AEE0036807F /* HeaderViewObject.swift in Sources */,
 				B02339AB270CA69E00326A07 /* CatalogView.swift in Sources */,
 				B02339AF270CA6FD00326A07 /* MainView.swift in Sources */,
+				B02B5872271B0A5D0036807F /* ProfileSectionModel.swift in Sources */,
 				B02339C1270CAC7E00326A07 /* BasketFlowCoordinator.swift in Sources */,
 				B02339A3270CA54200326A07 /* ProfileView.swift in Sources */,
 				B02339BD270CAC6200326A07 /* MainFlowCoordinator.swift in Sources */,
