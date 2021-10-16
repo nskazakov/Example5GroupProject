@@ -25,6 +25,7 @@
 		B02339C1270CAC7E00326A07 /* BasketFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02339C0270CAC7E00326A07 /* BasketFlowCoordinator.swift */; };
 		B02339C3270CAC8A00326A07 /* ProfileFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02339C2270CAC8A00326A07 /* ProfileFlowCoordinator.swift */; };
 		B02339C5270CAE2600326A07 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02339C4270CAE2600326A07 /* Scene.swift */; };
+		B02B5875271B0AEE0036807F /* HeaderViewObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02B5874271B0AEE0036807F /* HeaderViewObject.swift */; };
 		B02B5878271B0CA80036807F /* HeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02B5877271B0CA80036807F /* HeaderViewCell.swift */; };
 		B0BC16A326FCEAF8001688D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BC16A226FCEAF8001688D0 /* AppDelegate.swift */; };
 		B0BC16A526FCEAF8001688D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BC16A426FCEAF8001688D0 /* SceneDelegate.swift */; };
@@ -53,6 +54,8 @@
 		B02339C0270CAC7E00326A07 /* BasketFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketFlowCoordinator.swift; sourceTree = "<group>"; };
 		B02339C2270CAC8A00326A07 /* ProfileFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFlowCoordinator.swift; sourceTree = "<group>"; };
 		B02339C4270CAE2600326A07 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		B02B5874271B0AEE0036807F /* HeaderViewObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewObject.swift; sourceTree = "<group>"; };
+		B02B5877271B0CA80036807F /* HeaderViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewCell.swift; sourceTree = "<group>"; };
 		B0BC169F26FCEAF8001688D0 /* 5retailProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 5retailProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BC16A226FCEAF8001688D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0BC16A426FCEAF8001688D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -146,9 +149,18 @@
 		B02B5870271B0A3E0036807F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B02B5873271B0A620036807F /* Models */,
 				B02B5876271B0C830036807F /* Cells */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		B02B5873271B0A620036807F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B02B5874271B0AEE0036807F /* HeaderViewObject.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		B02B5876271B0C830036807F /* Cells */ = {
@@ -368,6 +380,7 @@
 			files = (
 				B02339A9270CA64B00326A07 /* BasketViewModel.swift in Sources */,
 				B02339A7270CA5F800326A07 /* BasketView.swift in Sources */,
+				B02B5875271B0AEE0036807F /* HeaderViewObject.swift in Sources */,
 				B02339AB270CA69E00326A07 /* CatalogView.swift in Sources */,
 				B02339AF270CA6FD00326A07 /* MainView.swift in Sources */,
 				B02339C1270CAC7E00326A07 /* BasketFlowCoordinator.swift in Sources */,
